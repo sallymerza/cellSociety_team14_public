@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+	<properties>
+		<type>GameOfLife</type>
+		<title>GameOfLife</title>
+		<author>Elsie</author>
+		<initialization type="">
+		</initialization>
+		<shapeOfCell>Square</shapeOfCell>
+		<edgeType>Finite</edgeType>
+		<direction>all</direction>
+		<imageSwitch>false</imageSwitch>
+		<neighbors>8</neighbors>
+		<states>alive dead</states>
+		<row>5</row>
+		<column>5</column>
+	</properties>
+
+<initial>dead dead dead dead dead dead dead alive dead dead dead dead alive dead dead dead dead alive dead dead dead dead dead dead dead</initial>
+	<parameters>
+	</parameters>
+</simulation>	

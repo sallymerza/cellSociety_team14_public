@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+	<properties>
+		<type>Fire</type>
+		<title>mySimulation</title>
+		<author>Elsie</author>
+		<initialization type="probability">
+			<state1>0.5</state1>
+			<state2>0.2</state2>
+			<state3>0.3</state3>
+		</initialization>
+		<shapeOfCell>Triangle</shapeOfCell>
+		<edgeType>Finite</edgeType>
+		<direction>all</direction>
+		<imageSwitch>false</imageSwitch>
+		<neighbors>4</neighbors>
+		<states>burnt burning tree</states>
+		<row>5</row>
+		<column>5</column>
+	</properties>
+	<initial>burnt burnt burnt burnt burnt burnt tree tree tree burnt burnt
+		tree burning tree burnt burnt tree tree tree burnt burnt burnt burnt
+		burnt burnt</initial>
+	<parameters>
+		<probCatch>0.2</probCatch>
+	</parameters>
+</simulation>	

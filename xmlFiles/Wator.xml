@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+	<properties>
+		<type>Wator</type>
+		<title>mySimulation</title>
+		<author>Abhishek</author>
+		<initialization type = "initialization"></initialization>
+		<shapeOfCell>Square</shapeOfCell>
+		<edgeType>Finite</edgeType>
+		<direction>all</direction>
+		<neighbors>cardinal</neighbors>
+		<imageSwitch>false</imageSwitch>
+		<states>fish shark kelp</states>
+		<row>6</row>
+		<column>6</column>
+	</properties>
+<initial>kelp shark kelp fish kelp fish fish shark shark kelp kelp kelp kelp shark kelp kelp fish kelp kelp kelp fish fish kelp fish kelp kelp kelp fish fish kelp kelp kelp fish kelp kelp kelp</initial>
+	<parameters>
+	</parameters>
+</simulation>	

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+<properties>
+<type>Segregation</type>
+<title>mySimulation</title>
+<author>Elsie</author>
+<initialization type = "initialization"></initialization>
+<shapeOfCell>Square</shapeOfCell>
+<edgeType>Finite</edgeType>
+<direction>all</direction>
+<neighbors>all</neighbors>
+<imageSwitch>false</imageSwitch>
+<states>agentX agentO empty</states>
+<row>4</row>
+<column>4</column>
+</properties>
+<initial>agentO agentO agentX agentX agentX empty empty agentO empty empty empty agentX empty agentX empty empty</initial>
+<parameters>
+<t>0.3</t>
+</parameters>
+</simulation>

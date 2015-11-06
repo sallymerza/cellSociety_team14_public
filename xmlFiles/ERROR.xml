@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation>
+	<properties>
+		<type></type>
+		<title>mySimulation</title>
+		<author>Elsie</author>
+		<initialization> initialization</initialization>
+		<neighbors>8</neighbors>
+		<states>alive dead</states>
+		<row>6</row>
+		<column>6</column>
+	</properties>
+<initial>dead dead dead dead dead dead dead alive alive dead dead dead dead alive alive dead dead dead dead dead dead alive alive dead dead dead dead alive alive dead dead dead dead dead dead dead</initial>
+	<parameters>
+	</parameters>
+</simulation>	
